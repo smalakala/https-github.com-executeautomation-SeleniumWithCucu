@@ -7,6 +7,6 @@ import org.openqa.selenium.WebDriver;
  */
 public class BaseUtil {
 
-    public WebDriver Driver;
+    public WebDriver Driver = new ChromeDriver();
 
 }
